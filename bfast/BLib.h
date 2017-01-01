@@ -4,9 +4,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <zlib.h>
-#ifdef HAVE_CONFIG_H
 #include <config.h>
-#endif
 #include "RGIndex.h"
 #include "BLibDefinitions.h"
 
@@ -16,7 +14,7 @@ int GetFastaHeaderLine(FILE*, char*);
 int ParseFastaHeaderLine(char*);
 char ToLower(char);
 void ToLowerRead(char*, int);
-inline char ToUpper(char);
+extern inline char ToUpper(char a);
 void ToUpperRead(char*, int);
 void ReverseRead(char*, char*, int);
 void ReverseReadFourBit(int8_t*, int8_t*, int);

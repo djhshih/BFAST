@@ -3,10 +3,8 @@
 #include <string.h>
 #include <assert.h>
 #include <limits.h>
-#ifdef HAVE_CONFIG_H
 #include <config.h>
 #include <zlib.h>
-#endif
 #include "BError.h"
 #include "BLib.h"
 #include "BLibDefinitions.h"
