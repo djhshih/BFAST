@@ -10,6 +10,6 @@ add_executable(
 	solid2fastq.c
 )
 
-target_link_libraries(solid2fastq ${BZIP2_LIBRARIES} ${ZLIB_LIBRARIES})
+target_link_libraries(solid2fastq ${STANDARD_LIBRARIES} ${BZIP2_LIBRARIES} ${ZLIB_LIBRARIES})
 
 # bfast.resubmit.pl bfast.submit.pl ill2fastq.pl

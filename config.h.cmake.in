@@ -5,4 +5,6 @@
 #define PACKAGE_VERSION "${PROJECT_VERSION}"
 #define PACKAGE_BUGREPORT "bfast-help@lists.sourceforge.net"
 
+#define HAVE_STRTOK_R ${HAVE_STRTOK_R}
+
 #endif

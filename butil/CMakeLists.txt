@@ -13,7 +13,7 @@ add_executable(
 	balignmentscoredistribution.c
 )
 
-target_link_libraries(balignmentscoredistribution ${ZLIB_LIBRARIES})
+target_link_libraries(balignmentscoredistribution ${STANDARD_LIBRARIES} ${ZLIB_LIBRARIES})
 
 add_executable(
 	balignsim
@@ -39,7 +39,7 @@ add_executable(
 	balignsim.c
 )
 
-target_link_libraries(balignsim ${ZLIB_LIBRARIES})
+target_link_libraries(balignsim ${STANDARD_LIBRARIES} ${ZLIB_LIBRARIES})
 
 add_executable(
 	bevalsim
@@ -57,7 +57,7 @@ add_executable(
 	bevalsim.c
 )
 
-target_link_libraries(bevalsim ${ZLIB_LIBRARIES})
+target_link_libraries(bevalsim ${STANDARD_LIBRARIES} ${ZLIB_LIBRARIES})
 
 add_executable(
 	bgeneratereads
@@ -72,7 +72,7 @@ add_executable(
 	bgeneratereads.c
 )
 
-target_link_libraries(bgeneratereads ${ZLIB_LIBRARIES})
+target_link_libraries(bgeneratereads ${STANDARD_LIBRARIES} ${ZLIB_LIBRARIES})
 
 add_executable(
 	bindexdist
@@ -87,7 +87,7 @@ add_executable(
 	bindexdist.c
 )
 
-target_link_libraries(bindexdist ${ZLIB_LIBRARIES})
+target_link_libraries(bindexdist ${STANDARD_LIBRARIES} ${ZLIB_LIBRARIES})
 
 add_executable(
 	bindexhist
@@ -102,7 +102,7 @@ add_executable(
 	bindexhist.c
 )
 
-target_link_libraries(bindexhist ${ZLIB_LIBRARIES})
+target_link_libraries(bindexhist ${STANDARD_LIBRARIES} ${ZLIB_LIBRARIES})
 	
 
 add_executable(
@@ -121,7 +121,7 @@ add_executable(
 	bmfmerge.c
 )
 
-target_link_libraries(bmfmerge ${BZIP2_LIBRARIES} ${ZLIB_LIBRARIES})
+target_link_libraries(bmfmerge ${STANDARD_LIBRARIES} ${BZIP2_LIBRARIES} ${ZLIB_LIBRARIES})
 
 
 add_executable(
@@ -136,7 +136,7 @@ add_executable(
 	brepeat.c
 )
 
-target_link_libraries(brepeat ${ZLIB_LIBRARIES})
+target_link_libraries(brepeat ${STANDARD_LIBRARIES} ${ZLIB_LIBRARIES})
 
 
 add_executable(
@@ -151,5 +151,5 @@ add_executable(
 	btestindexes.c
 )
 
-target_link_libraries(btestindexes ${ZLIB_LIBRARIES})
+target_link_libraries(btestindexes ${STANDARD_LIBRARIES} ${ZLIB_LIBRARIES})
 

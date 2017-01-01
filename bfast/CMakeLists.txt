@@ -41,5 +41,5 @@ add_executable(
 	Main.c 
 )
 
-target_link_libraries(bfast ${BZIP2_LIBRARIES} ${ZLIB_LIBRARIES})
+target_link_libraries(bfast ${STANDARD_LIBRARIES} ${BZIP2_LIBRARIES} ${ZLIB_LIBRARIES})
 
