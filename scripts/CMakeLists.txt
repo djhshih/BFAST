@@ -15,5 +15,5 @@ target_link_libraries(solid2fastq ${STANDARD_LIBRARIES} ${BZIP2_LIBRARIES} ${ZLI
 install(TARGETS solid2fastq RUNTIME DESTINATION bin)
 
 install(PROGRAMS bfast.resubmit.pl bfast.submit.pl ill2fastq.pl
-	RUNTIME DESTINATION bin
+	DESTINATION bin
 )
