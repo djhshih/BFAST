@@ -27,3 +27,7 @@ add_subdirectory(bfast)
 add_subdirectory(scripts)
 add_subdirectory(butil)
 
+# tests need to be run manually by
+# cd tests && sh test.all.sh
+file(COPY "tests" DESTINATION ${CMAKE_BINARY_DIR})
+

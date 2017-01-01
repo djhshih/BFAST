@@ -43,3 +43,5 @@ add_executable(
 
 target_link_libraries(bfast ${STANDARD_LIBRARIES} ${BZIP2_LIBRARIES} ${ZLIB_LIBRARIES})
 
+install(TARGETS bfast RUNTIME DESTINATION bin)
+

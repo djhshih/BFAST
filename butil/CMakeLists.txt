@@ -153,3 +153,15 @@ add_executable(
 
 target_link_libraries(btestindexes ${STANDARD_LIBRARIES} ${ZLIB_LIBRARIES})
 
+install(TARGETS 
+	balignmentscoredistribution
+	balignsim
+	bevalsim
+	bgeneratereads
+	bindexdist
+	bindexhist
+	bmfmerge
+	brepeat
+	btestindexes
+	RUNTIME DESTINATION bin
+)
