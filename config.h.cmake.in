@@ -1,0 +1,8 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define PACKAGE_NAME "${PROJECT_NAME}"
+#define PACKAGE_VERSION "${PROJECT_VERSION}"
+#define PACKAGE_BUGREPORT "bfast-help@lists.sourceforge.net"
+
+#endif
